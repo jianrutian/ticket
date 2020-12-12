@@ -5,7 +5,7 @@ import json
 with open('stations.json','r') as file:
 	str = file.read()
 	stations = json.loads(str)
-	print(type(stations))
+	#print(type(stations))
 
 def get_name(telecode):
 	#print(stations.items())
